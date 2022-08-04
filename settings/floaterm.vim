@@ -1,7 +1,7 @@
 "let g:floaterm_keymap_new    = '<F8>'
-"let g:floaterm_keymap_prev   = '<F9>'
-"let g:floaterm_keymap_next   = '<F10>'
-"let g:floaterm_keymap_toggle = '<F12>'
+let g:floaterm_keymap_prev   = '<F9>'
+let g:floaterm_keymap_next   = '<F10>'
+let g:floaterm_keymap_toggle = '<F12>'
 let g:floaterm_position = 'topright'
 let g:floaterm_width = 0.6
 let g:floaterm_height = 0.6
@@ -48,5 +48,5 @@ tnoremap <silent> <leader>tf <C-\><C-n><C-W><Left>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Hotkey to run other console apps
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Git 
-nnoremap <silent> <leader>gl :FloatermNew! --position=bottomright --height=0.95 --width=0.7 --title='GitLog' git lg<CR>
+" zsh
+nnoremap <silent> <F8> :FloatermNew! --position=topright --height=0.95 --width=0.7 --title=\ zsh\  zsh<CR>
